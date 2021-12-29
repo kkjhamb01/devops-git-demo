@@ -7,6 +7,6 @@
     <title>Git Example</title>
 </head>
 <body>
-    <h1>Git working fine</h1>
+    <h1><?php echo "Hello world" ?></h1>
 </body>
 </html>

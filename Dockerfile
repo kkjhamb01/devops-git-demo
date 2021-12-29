@@ -1,3 +1,4 @@
-FROM nginx:1.21.4-alpine
-COPY . /usr/share/nginx/html
+FROM php:7.2-apache
+WORKDIR /var/www/html/
+COPY . .
 ENV name DevOps Dotsquares
